@@ -53,7 +53,7 @@ bars_wrapper.classList.add("bars_wrapper")
 let dominant_div = document.createElement("div")
 dominant_div.classList.add("dominant")
 dominant_div.classList.add("bar")
-dominant_div.style.width = "100%t"
+dominant_div.style.width = "100%"
 
 dominant_div.innerHTML = horde_pop
 

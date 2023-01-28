@@ -1,0 +1,83 @@
+body {
+    background-color: #222;
+    font-family:'Courier New', Courier, monospace
+}
+
+div.headline_wrapper {
+    height: 5em 
+}
+
+div.pop_wrapper {
+    display:flex;
+    align-items: center; 
+    height: 5em; 
+    margin-top: 1.5em; 
+}
+
+div.date_box {
+    font-size: .8em;
+    text-align: left;
+    padding-left: 1em;
+    border-bottom: white dashed thin;
+    border-top: white dashed thin;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 3em;
+}
+
+div.overall {
+    height: 5em;
+    width: 5em;
+    border-radius: 20em;
+    border: thin red solid; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 5em;
+    font-weight: bold; 
+
+    box-shadow: 0px 1px 10px #9933ff;
+    border-color: #9933ff;
+    font-size: 1.3em;
+    z-index: 99;
+    background-color: #222;
+    margin-left: .5em
+}
+
+div.bars_wrapper {
+    positioN: absolute;
+    left: 7em;
+    width: 20em;
+    z-index: 0;
+}
+
+div.bar {
+    height: 2em;
+    line-height: 2em;
+    border-radius: 0 0.5em 0.5em 0;
+    text-align: left;
+    padding-left: 2em; 
+}
+
+div.horde {
+    background-color: darkred
+}
+
+div.alliance {
+    background-color:darkblue
+}
+
+img.icon {
+    height:100%;
+    float: left; 
+    padding-right: 1em;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-top: 0.3em;
+}
+
+h2 {
+    margin-top: 0;
+}

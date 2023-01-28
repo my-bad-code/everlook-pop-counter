@@ -1,0 +1,19 @@
+{
+    "name": "Everlook Pop Counter",
+    "version": "1.0.0",
+    "description": "Counts Everlook Pop",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Everlook Pop Counter"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://everlook.org/stats/realms"],
+        "js": ["content.js"],
+        "css": ["style.css"],
+        "run_at": "document_idle"
+      }
+    ],
+    "permissions": ["activeTab", "tabs"]
+}

@@ -23,23 +23,6 @@ date_box.innerHTML = "Population on Everlook at: " + date
 let body = document.getElementsByTagName("body")[0]
 body.innerHTML = "" 
 
-let headline = document.createElement("h1")
-headline.innerHTML = "Everlook"
-
-let subline = document.createElement("h2")
-subline.innerHTML = "Pop Counter"
-
-let headline_wrapper = document.createElement("div")
-headline_wrapper.classList.add("headline_wrapper")
-
-let icon = document.createElement("img")
-icon.classList.add("icon")
-icon.src = "https://www.dkpminus.com/wp-content/uploads/2022/10/everlook-poc-raster.png"
-
-headline_wrapper.appendChild(icon)
-headline_wrapper.appendChild(headline)
-headline_wrapper.appendChild(subline)
-
 let pop_wrapper = document.createElement("div")
 pop_wrapper.classList.add("pop_wrapper")
 
